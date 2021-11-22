@@ -69,6 +69,7 @@ public class ShoppingCart {
             CartItem item = cartItems.get(index);
             item.setQuantity(quantity);
         } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

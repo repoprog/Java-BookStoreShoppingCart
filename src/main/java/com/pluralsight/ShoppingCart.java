@@ -62,9 +62,7 @@ public class ShoppingCart {
 
         try {
             cartItems.remove(index);
-        } catch (IndexOutOfBoundsException e) {
-            System.out.println(e.getMessage());
-        }
+        } catch (Exception e) {}
     }
 
 }
